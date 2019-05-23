@@ -1,0 +1,14 @@
+{
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+    "product_shop_color_swatch_list": ".product-shop-color-swatch-list",
+    "product_index": "div.product-index",
+    "product_image_url": "div.prod-image > a",
+    "accordion_two": "ul#accordion-2",
+    "div_desc": "div.desc",
+    "product_shop_family_title": ".product-shop-family-title",
+    "product_shop_title": ".product-shop-title",
+    "product_shop_price": ".product-shop-price",
+    "div_slide_gallery": "div.slide-gallery",
+    "li_thumb": "li[data-thumb]",
+    "high_quality_img": "img:nth-child(2)"
+}
