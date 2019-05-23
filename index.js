@@ -25,7 +25,8 @@ const writeFileSyncRecursive = (url, json) => {
         return folderPath
     });
 
-    FS.appendFileSync(storeDBPath, url + '\n' + JSON.stringify(json, null, 4) + '\n\n');
+    json.url = url;
+    FS.appendFileSync(storeDBPath, JSON.stringify(json, null, 4) + '\n');
 }
 
 (async () => {
